@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    background-color: #212121;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    color: rgb(247, 241, 239);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+}
