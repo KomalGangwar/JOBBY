@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Searching Platform</title>
-    <link rel="stylesheet" href="style.css">
+    <title>A Job Search Platform</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <h1>JOBBY</h1>
-        <a href="#Jobs">Jobs</a>
-        <a href="#Companies">Companies</a>
-        <a href="#Salaries">Salaries</a>
-    <button class="Login">Login</button>
-    </nav>
+    <header>
+        <h1>Job Search Platform</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <h2> A Search for Jobs</h2>
+            <input type="text" id="job-search-input" placeholder="Enter a job title or keyword">
+            <button id="search-button">Search</button>
+        </section>
+        <section id="job-listings">
+            <!-- Job listings will be displayed here -->
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
