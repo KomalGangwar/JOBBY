@@ -12924,7 +12924,7 @@ packages:
   /tsconfig-paths/3.14.2:
     resolution: {integrity: sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==}
     dependencies:
-      '@types/json5': 0.0.29
+      
       json5: 1.0.2
       minimist: 1.2.8
       strip-bom: 3.0.0
